@@ -1,5 +1,5 @@
 //
-//  WeatherData.swift
+//  HourlyWeatherModel.swift
 //  TestWeather
 //
 //  Created by admin on 10.08.2022.
@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct WeatherData: Decodable {
+struct HourlyWeatherModel: Decodable {
     var list: [HourlyCityWeather]
     var city: City
 }

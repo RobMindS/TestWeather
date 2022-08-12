@@ -1,5 +1,5 @@
 //
-//  ConvertTemp.swift
+//  ConvertTemperature.swift
 //  TestWeather
 //
 //  Created by admin on 11.08.2022.
@@ -7,9 +7,9 @@
 
 import Foundation
 
-class ConvertTemp {
+class ConvertTemperature {
     
-    let shared: ConvertTemp = ConvertTemp()
+    static let shared: ConvertTemperature = ConvertTemperature()
     
     func convertTemp(temp: Double, from inputTempType: UnitTemperature, to outputTempType: UnitTemperature) -> String {
         let mf = MeasurementFormatter()
