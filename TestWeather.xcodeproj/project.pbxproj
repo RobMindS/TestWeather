@@ -280,7 +280,6 @@
 				84BE377C28A40CBE00B9460C /* Sources */,
 				84BE377D28A40CBE00B9460C /* Frameworks */,
 				84BE377E28A40CBE00B9460C /* Resources */,
-				16436020B4DC1ED19E45DE52 /* [CP] Copy Pods Resources */,
 				579D9ECA1C66DE3BF09AF421 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -345,23 +344,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		16436020B4DC1ED19E45DE52 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestWeather/Pods-TestWeather-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TestWeather/Pods-TestWeather-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestWeather/Pods-TestWeather-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		579D9ECA1C66DE3BF09AF421 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
